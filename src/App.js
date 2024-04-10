@@ -13,9 +13,9 @@ const App = () => (
       <Route path="/" element={<Books />} />
       <Route path="/categories" element={<Categories />} />
       <Route path="/toolbar" element={<VercelToolbar />} />
-      <Route path="/speed" element={<SpeedInsights />} />
       <Route path="*" element={<p>Path is not resolved</p>} />
     </Routes>
+    <SpeedInsights />
   </BrowserRouter>
 );
 
