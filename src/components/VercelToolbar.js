@@ -1,6 +1,5 @@
 import React, { useEffect } from 'react';
 import { mountVercelToolbar } from '@vercel/toolbar';
-import { SpeedInsights } from '@vercel/speed-insights/react';
 
 const VercelToolbar = () => {
   useEffect(() => {
@@ -9,7 +8,6 @@ const VercelToolbar = () => {
 
   return (
     <div className="container">
-      <SpeedInsights />
       <span className="bookTitle">
         Powered by
         {' '}
